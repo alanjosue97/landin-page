@@ -80,8 +80,9 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-
+   }
+   .list-services{
+       display: flex; justify-content: center; align-items: center;
    }
 
 
@@ -100,10 +101,36 @@ body{
         color: #fff;
         padding: 0 20px;
         text-decoration: none;
+        text-transform: uppercase;
+        font: 20px 'Stin ultra Condence'
         
     }
-/* PART OF THE WEB */ 
+    .title{
+        margin-bottom: 40px;
+        font: 20px 'Stin ultra Condence';
+        text-transform: uppercase;
 
+    }
+    p{
+        margin-bottom: 40px;
+    }
+    
+/* PART OF THE WEB */ 
+.content {
+    padding: 80px;
+}
+.Who {
+    background: #99c9fa;
+    color: #fff;
+}
+    .Who p {
+        max-width: 1055px;
+        margin: 0 auto;
+    }
+.services {
+    background: #34495e;
+    color: #fff;
+}
 /* LIST */
 
 /* FORM */ 
