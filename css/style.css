@@ -81,21 +81,34 @@ body{
     justify-content: center;
     align-items: center;
    }
-   .list-services{
-       display: flex; justify-content: center; align-items: center;
+   .taxes{
+       text-align: left;
    }
+   .list-services{
+       display: flex; 
+       justify-content: center; 
+       align-items: center;
+   }
+   .list-services figure{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-flow: column;
+  }
+   
+
 
 
 /* GENERIC ITEMS */
 .header {
     height: 450px;
-    background: url(../img/imgheader.jpg ) no-repeat center top;
+    background: url(../img/imgheader.jpg) no-repeat center top;
     background-size: cover;
    }
 .navbar{
     height: 63px;
     background:#2c3e50 ;
-
+  
 } 
     .navbar a {
         color: #fff;
@@ -114,6 +127,13 @@ body{
     p{
         margin-bottom: 40px;
     }
+    .btn{
+        border: 2px solid #fff;
+        padding: 10px 40px;
+        display: inline-block; 
+        text-decoration: none;
+        color: #fff;
+    }
     
 /* PART OF THE WEB */ 
 .content {
@@ -131,9 +151,65 @@ body{
     background: #34495e;
     color: #fff;
 }
-/* LIST */
 
+.taxes {
+    background: url(../img/taxes.jpg) no-repeat center top; 
+    background-size: cover;
+    color: rgb(251, 198, 64);
+} .containt {
+        max-width: 1055px ;
+        margin: 0 auto;
+    }
+    .taxes p{
+      max-width: 450px;  
+    }
+.location{
+    color: #34495e;
+    padding-bottom: 0;
+} .location .map img{
+     max-width: 100%;
+     width: 100%;
+}
+/* LIST */
+.list-services figure{
+    position: relative;
+    width: 150px;
+    height: 190px;
+} .list-services figure:after{
+       content:  "";
+       position: absolute;
+       top: 0;
+       left: 0;
+       border-radius: 50%;
+       z-index: 0;
+       background: #fff;
+       width: 150px;
+       height: 150px;
+} .list-services img{
+    position: relative;
+    z-index: 1;
+}
+ .list-services li{
+     padding: 0 30px;
+ }
+    .list-services figcaption{
+        position: relative ;
+        left: 0;
+        top: 0;
+        bottom: -40px;
+    }
 /* FORM */ 
 
 /* ANIMATIONS */
+.html img{
+    height: 80%;
+}
+.css img{
+    height: 80%;
+}
+.js img{
+    height: 75%;
+    border-radius: 70%;
+}
+
 
